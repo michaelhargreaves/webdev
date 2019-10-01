@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans+Condensed:300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel='stylesheet' href='styles.css'>
+    </link>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Michael's Website</h1>
+        <div class="nav">
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">contact</A>
+
+        </div>
+    </header>
+
+    <div>
+        <p>yo</p>
+
+    </div>
+    <div class="inputcard">
+        <form class="input" onSubmit="alertUser()">
+            <input type="text" placeholder="name" />
+            <p></p>
+            <input type="email" placeholder="email" />
+            <p></p>
+            <input type="text" placeholder="Enter message..." />
+            <p></p>
+            <input type="submit" value="submit" />
+        </form>
+    </div>
+    <script>
+        function alertUser() {
+            window.alert("Thank you for your message.")
+        }
+    </script>
+    <footer class="footer">
+        <p>1234567890</p>
+        <a href="https://youtube.com" class="fa fa-youtube"></a>
+        <a href="https://twitter.com" class="fa fa-twitter" id="twitter"></a>
+    </footer>
+</body>
+
+</html>

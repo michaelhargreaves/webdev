@@ -1,0 +1,58 @@
+body {
+    background: lightgray;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    }
+header {
+    background: lightskyblue;
+    padding: 16px 0;
+    font-family: 'Abril Fatface', cursive;
+    border: 2px solid black;
+    box-shadow: 8px 8px 8px grey;
+    }
+
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+.footer a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: red;
+    margin-right: 12px;
+}
+.active {
+    color:white;
+}
+#twitter {
+    color: lightskyblue;
+}
+.content {
+    padding: 2rem;
+    display: flex; 
+    margin: 1rem;   
+}
+.content p {
+    padding: 1rem;
+}
+.card {
+    border: 2px solid black;
+    background: lightskyblue;
+    box-shadow: 8px 8px 8px grey;
+}
+input {
+       background: white;
+}
+
+.inputcard {
+    margin: 4rem;
+    background: lightskyblue;
+    padding: 1rem;
+    border: 2px solid black;
+    box-shadow: 8px 8px 8px grey;
+    
+}
+
